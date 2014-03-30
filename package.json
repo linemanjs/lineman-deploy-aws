@@ -1,17 +1,18 @@
 {
   "name": "lineman-deploy-aws",
-  "title": "A plugin for deploying lineman projects to AWS",
+  "description": "A plugin for deploying lineman projects to AWS",
   "version": "0.0.1",
   "homepage": "https://github.com/linemanjs/lineman-deploy-aws",
   "author": {
-    "name": "Jason Raede",
-    "company": "Torched Media, LLC"
+    "name": "Jason Raede"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/linemanjs/lineman-deploy-aws.git"
+    "url": "https://github.com/linemanjs/lineman-deploy-aws.git"
   },
-  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/linemanjs/lineman-deploy-aws/issues"
+  },
   "dependencies": {
     "grunt": "~0.4.2",
     "grunt-aws": "~0.3.0"
@@ -22,7 +23,13 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://mit-license.org"
+      "url": "http://testdouble.mit-license.org"
     }
+  ],
+  "keywords": [
+    "lineman",
+    "linemanplugin",
+    "deploy",
+    "aws"
   ]
 }
